@@ -1,0 +1,181 @@
+body{
+    background-color: lightgrey;
+
+    height: 100%
+
+}
+
+nav > ul {
+    margin: 0px;
+    padding:0px;
+}
+
+nav> ul >li {
+    float: left;
+    position: relative;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav{
+    width: 100%;
+    
+    font-family: 'Roboto', sans-serif;
+
+}
+
+nav > ul::after{
+    content:"";
+    display: table;
+    clear: both;
+    
+    
+    
+}
+
+nav a{
+    display:inline-block;
+    text-decoration: none;
+}
+
+nav> ul >li >a{
+    padding:20px 30px;
+    color:black
+}
+
+.submenu{
+    display: none;
+    font-weight: bolder;
+}
+.submenu li{
+    border-bottom: 1px solid #CCC;
+    
+}
+.submenu li a{
+    padding: 15px 30px;
+    font-size: 13px;
+    color:#222538;
+    width: 82px;
+    border-radius: 15px;
+
+}
+
+nav li a:hover {
+    font-weight: bolder;
+}
+
+nav li:hover .submenu{
+    display:inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding:0px;
+    z-index:10000;
+    background-color: beige;
+    font-weight: lighter;
+    
+
+}
+nav input[type=checkbox]{
+    display:none;
+}
+.menumobile{
+    display:none;
+}
+.presentation:hover{
+    border-top: 0px solid #e44d26;
+    background-color:rgb(55, 6, 77);
+
+}
+.g:hover{
+    /*border-top: 1px solid lightgrey;*/
+    background-color: rgba(88, 16, 122, 0.205);
+    border-radius: 5px
+
+}
+.carte:hover{
+    background-color: rgba(228, 77, 38, 0.15);
+
+}
+
+    @media screen and (max-width: 480px) {
+        .nav-item {
+                float: none; /* Remet les éléments les uns au-dessus des autres */
+            }
+        .sub-nav {
+                position: static; /* Replace la sous-liste dans le flux du document */
+                white-space: normal /* Permet au texte de revenir à la ligne normalement */
+            }
+        .sub-nav-item a {
+                display: block; /* Pour que la ligne entière soit cliquable */
+                width: auto; /* Annule width: 1px */
+                height: auto; /* Annule height: 1px */
+                position: static; /* Annule position: absolute */
+                padding-left: 1em; /* Annule le padding vertical et en rajoute à gauche pour indiquer le sous-niveau */
+                overflow: visible; /* Annule overflow: hidden */
+                float: none;
+            }
+        }
+.img-responsive{
+    max-width:100%;
+     height:auto ;
+     display:block;
+}
+
+footer{
+    display: inline-block;
+    background-color:grey;
+    position:absolute ;
+    bottom:0;
+    width:99.5%;
+    padding-top:10px;
+    height:40px;
+    margin-left: -5px;
+    
+   
+    
+}
+#searchbar{
+    position:relative;
+    width:1040px;
+    height:auto;
+    display:inline-block;
+}
+#searchbar .text{
+    width:300px;
+    float:left;    
+}
+#searchbar .champ{
+    width:600px;
+    height:35px;
+    float:left;
+}
+
+.g{
+    font-weight:bolder;
+}
+.a:hover{
+    font-weight: bolder;
+}
+
+img { border: 0; }
+
+#search {
+	float: right;
+	
+}
+
+#searchsubmit {
+	background: rgb(55, 6, 77) url(images/img04.gif) repeat-x;
+	font-size: .9em;
+	color: #FFFFFF;
+}
+#text{
+    background-color: beige;
+    border-radius: 5px;
+    margin-left: 50px ;
+    margin-right: 50px ;
+    padding :  20px;
+}

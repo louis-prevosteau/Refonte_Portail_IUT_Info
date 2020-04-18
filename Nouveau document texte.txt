@@ -1,0 +1,33 @@
+    <footer>
+<ul>
+            <li class="presentation"><a href="http://www.iut-informatique.fr/presentation.php">Présentation</a></li>
+
+            <li class="formation"><a href=".html">Formation</a>
+              <ul>
+                <li><a href="http://www.iut-informatique.fr/iut.php">L'IUT</a></li>
+                <li><a href="http://www.iut-informatique.fr/programme.php">Département infromatique</a></li>
+                <li><a href="http://www.iut-informatique.fr/programme.php">Programme</a></li>
+              </ul>  
+            </li>
+
+            <li class="carte"><a href="http://www.iut-informatique.fr/carte.php">Carte des DUT informatique</a></li>
+
+            <li class="après"><a href=".html">Après l'IUT</a>
+              <ul > 
+                <li><a href="http://www.iut-informatique.fr/debouches.php">Programme</a></li>
+                
+              </ul>
+            </li>
+            <li class="temoignage"><a href="http://www.iut-informatique.fr/temoignages.php">Témoignages</a></li>
+
+            <li class="revues"><a href="http://www.iut-informatique.fr/revues.php">Revues de presse</a></li>
+
+            <li class="liens"><a href="http://www.iut-informatique.fr/liens.php">Liens</a></li>
+
+            <li class="partenariat"><a href="http://www.iut-informatique.fr/liens_pro.php">Partenariat</a></li>
+
+            <li class="entreprise"><a href="http://www.iut-informatique.fr/entreprises.php">Entreprises</a></li>
+
+            <li class="accesE"><a href="http://www.iut-informatique.fr/Intranet/">Accès Enseignant</a></li>
+          </ul>
+    </footer>
